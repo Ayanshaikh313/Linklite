@@ -54,8 +54,8 @@ const Shorten = () => {
   Generate
 </button>
         </div>
-        {generated && <> <span className='font-bold text-lg'>Your Link </span><code><Link target="_blank" href={generated}>{generated}</Link> 
-                </code></>}
+        {/* {generated && <> <span className='font-bold text-lg'>Your Link </span><code><Link target="_blank" href={generated}>{generated}</Link> 
+                </code></>} */}
     </div>
   )
 }
