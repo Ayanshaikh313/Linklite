@@ -44,7 +44,10 @@ fetch("/api/generate", requestOptions)
         <div className='flex flex-col gap-3'>
             <input value={url} className='px-4 py-2 rounded-md' type="text" placeholder='Enter Your URL' onChange={e=>{setUrl(e.target.value)}} />
             <input value={shorturl} type="text" className='px-4 py-2 rounded-md ' placeholder='Enter your preferred short URL text' onChange={e=>{setshorturl(e.target.value)}} />
-            <button onClick={Generate} className="my-3 px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(0,220,0),2px_2px_rgba(0,220,0),3px_3px_rgba(0,220,0),4px_4px_rgba(0,220,0),5px_5px_0px_0px_rgba(0,220,0)] ">
+            {/* <button onClick={Generate} className="my-3 px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(0,220,0),2px_2px_rgba(0,220,0),3px_3px_rgba(0,220,0),4px_4px_rgba(0,220,0),5px_5px_0px_0px_rgba(0,220,0)] ">
+  Generate
+</button> */}
+            <button className="my-3 px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(0,220,0),2px_2px_rgba(0,220,0),3px_3px_rgba(0,220,0),4px_4px_rgba(0,220,0),5px_5px_0px_0px_rgba(0,220,0)] ">
   Generate
 </button>
         </div>
