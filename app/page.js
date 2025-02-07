@@ -46,8 +46,8 @@ export default function Home() {
           <p className={`text-2xl lg:text-3xl font-bold ${Poppins.className}`}>
             The best URL shortener in the Market
           </p>
-          <p className="lg:px-56 text-gray-700">
-            We are the most straightforward URL Shortener in the world. Most of the URL shorteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL shortener.
+          <p className="md:px-56 px-5  text-center">
+            We are the most straightfoward URL Shortener in the world. Most of the url shorteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL shortener
           </p>
           <div className='flex gap-3 justify-center lg:justify-start mt-4'>
             <Link href="/shorten">
