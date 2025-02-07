@@ -39,7 +39,7 @@ const Shorten = () => {
     
     
   return (
-    <div className='md:mx-auto  max-w-lg bg-green-100 p-8 my-16 flex flex-col md:w-full w-[70vh] gap-4 rounded-lg'>
+    <div className='md:mx-auto  max-w-lg bg-green-100 p-8 my-16 flex flex-col md:w-full gap-4 rounded-lg'>
         <h1 className='font-bold text-lg'>Generate your Short URL</h1>
         <div className='flex flex-col gap-3'>
             <input className='px-4 py-2 rounded-md' type="text" placeholder='Enter Your URL' />

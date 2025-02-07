@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   return (
-    <div className="container md:mx-auto px-4 md:ml-0 ml-14">
+    <div className="container md:mx-auto px-4 ">
       <main className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-4xl font-bold my-8 text-center">LinkLite: About Us</h1>
         <span className="flex flex-col">

@@ -38,6 +38,7 @@ const features = [
   }
 ];
 
+
 export default function Home() {
   return (
     <main className="bg-green-100 min-h-screen md:w-full w-[70vh] ">
