@@ -9,7 +9,6 @@ This is a free, open-source and secure URL shortner built with Next.js and Mongo
 ## Note:
 - This is Responsive you can access it in mobile also.
 - This is a work in progress project.
-You can find the source code on [Github](https://github.com/Ayanshaikh313/Linklite).
 - On clicking to Try Now or Shorten button on Navbar or home page you will be directed to the URl shortner component.
 - Features showed on home page are not build right now so on clicking it cant provide you anything .
 
